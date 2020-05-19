@@ -1,0 +1,16 @@
+body{
+    /* background: blue; */
+    text-align: center;
+    font-family: Sans-serif;
+}
+.grid-container{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 15rem;
+    height: 15rem;
+}
+
+.grid-item{
+    border: 2px solid black;
+}

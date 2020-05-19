@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'game/index.css' %}">
+    </head> 
+    <body>
+            <h1>Tic-Tac-Toe</h1>
+
+            <div class="grid-container">
+                {% for i in range %}
+                    <div class='grid-item'>{{ forloop.counter }} </div> 
+                {% endfor %}
+            </div>
+
+            <button type="submit" value="start">Start</button>
+    </body>
+</html>
+
+
